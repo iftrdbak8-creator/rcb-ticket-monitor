@@ -2,7 +2,7 @@ name: RCB Ticket Monitor
 
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/2 * * * *"   # run every 2 minutes
   workflow_dispatch:
 
 jobs:
